@@ -1,0 +1,21 @@
+{% extends 'browse/base.html' %}
+
+{% block title %}
+Test Title
+{% endblock %}
+
+{% block body %}
+<form action="query.html">
+  <fieldset>
+    <input type="text" name="searchFiles" placeholder="Enter search query" id="searchQuery" required>
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+{% endblock %}
+
+{% block footer %}
+<p>
+  placeholder footer
+</p>
+{% endblock %}
+
